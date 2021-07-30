@@ -11,7 +11,6 @@ package net.sealpoint.numberproject;
  */
 public class NumberTestApp {
     
-    
     public static void main(String[] args)
     {
         String TestNumber = "";
@@ -20,10 +19,7 @@ public class NumberTestApp {
         numGen.setNumberOfDigits(2);
         
         TestNumber = numGen.GenerateNumber();
-        
-        
-        
-        
+        System.out.println(TestNumber);
     }
     
 }
