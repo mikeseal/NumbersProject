@@ -21,6 +21,7 @@ public class NumberTestApp {
         TestNumber = numGen.GenerateNumber();
         System.out.println(TestNumber);
         System.out.println("Added some more functionality");
+        System.out.println("Added for Feature 1");
     }
     
 }
